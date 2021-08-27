@@ -1,0 +1,17 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/java/TestRule5.java;JRule 5;critical;PBEKeySpec -> hard coded int;18;999;Types.NumberLiteral;18
+../resources/test_cases/java/TestRule5.java;JRule 5;critical;PBEParameterSpec -> hard coded int;19;999;Types.NumberLiteral;19
+../resources/test_cases/java/TestRule5.java;JRule 5;critical;TestRule5.pExample2LocalVariable.PBEKeySpec;32;999;Types.NumberLiteral;31
+../resources/test_cases/java/TestRule5.java;JRule 5;critical;TestRule5.pExample2LocalVariable.PBEParameterSpec;33;999;Types.NumberLiteral;31
+../resources/test_cases/java/TestRule5.java;JRule 5;critical;TestRule5.pExample3NestedLocalVariable.PBEKeySpec;49;999;Types.NumberLiteral;45
+../resources/test_cases/java/TestRule5.java;JRule 5;critical;TestRule5.pExample3NestedLocalVariable.PBEParameterSpec;50;999;Types.NumberLiteral;45
+../resources/test_cases/java/TestRule5.java;JRule 5;critical;TestRule5.pExample4DirectFieldAccess.PBEKeySpec;62;999;Types.NumberLiteral;11
+../resources/test_cases/java/TestRule5.java;JRule 5;critical;TestRule5.pExample4DirectFieldAccess.PBEParameterSpec;63;999;Types.NumberLiteral;11
+../resources/test_cases/java/TestRule5.java;JRule 5;critical;TestRule5.pExample5IndirectFieldAccess.PBEKeySpec;77;999;Types.NumberLiteral;11
+../resources/test_cases/java/TestRule5.java;JRule 5;critical;TestRule5.pExample5IndirectFieldAccess.PBEParameterSpec;78;999;Types.NumberLiteral;11
+../resources/test_cases/java/TestRule5.java;JRule 5;critical;TestRule5.pExample6MethodCall.PBEKeySpec;90;999;Types.NumberLiteral;112
+../resources/test_cases/java/TestRule5.java;JRule 5;critical;TestRule5.pExample6MethodCall.PBEKeySpec;90;999;Types.NumberLiteral;122
+../resources/test_cases/java/TestRule5.java;JRule 5;critical;TestRule5.pExample6MethodCall.PBEParameterSpec;91;999;Types.NumberLiteral;112
+../resources/test_cases/java/TestRule5.java;JRule 5;critical;TestRule5.pExample6MethodCall.PBEParameterSpec;91;999;Types.NumberLiteral;122
+../resources/test_cases/java/TestRule5.java;JRule 5;warning;TestRule5.pExample7WarningParameterNotResolvable.PBEKeySpec;131;UNKNOWN;Types.Unknown;130
+../resources/test_cases/java/TestRule5.java;JRule 5;warning;TestRule5.pExample7WarningParameterNotResolvable.PBEParameterSpec;132;UNKNOWN;Types.Unknown;130

@@ -1,0 +1,9 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/python/M2Crypto/TestRule5.py;PyQuery: Rule 5 | M2Crypto;critical;pbkdf2 -> hard coded int;12;999;Types.NumberLiteral;12
+../resources/test_cases/python/M2Crypto/TestRule5.py;PyQuery: Rule 5 | M2Crypto;critical;TestRule5.p_example2_local_variable.pbkdf2;21;999;Types.NumberLiteral;20
+../resources/test_cases/python/M2Crypto/TestRule5.py;PyQuery: Rule 5 | M2Crypto;critical;TestRule5.p_example3_nested_local_variable.pbkdf2;33;999;Types.NumberLiteral;29
+../resources/test_cases/python/M2Crypto/TestRule5.py;PyQuery: Rule 5 | M2Crypto;critical;TestRule5.p_example_method_call.pbkdf2;41;999;Types.NumberLiteral;53
+../resources/test_cases/python/M2Crypto/TestRule5.py;PyQuery: Rule 5 | M2Crypto;critical;TestRule5.p_example_method_call.pbkdf2;41;999;Types.NumberLiteral;58
+../resources/test_cases/python/M2Crypto/TestRule5.py;PyQuery: Rule 5 | M2Crypto;critical;TestRule5.p_example6_direct_g_variable_access.pbkdf2;63;999;Types.NumberLiteral;7
+../resources/test_cases/python/M2Crypto/TestRule5.py;PyQuery: Rule 5 | M2Crypto;critical;TestRule5.p_example7_indirect_g_variable_access.pbkdf2;72;999;Types.NumberLiteral;7
+../resources/test_cases/python/M2Crypto/TestRule5.py;PyQuery: Rule 5 | M2Crypto;warning;TestRule5.p_example8_warning_parameter_not_resolvable.pbkdf2;80;UNKNOWN;Types.Unknown;79

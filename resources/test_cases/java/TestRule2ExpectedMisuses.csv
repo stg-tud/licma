@@ -1,0 +1,23 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;IvParameterSpec -> hard coded string;20;1234567812345678;Types.StringLiteral;20
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;IvParameterSpec -> hard coded array;33;1234567812345678;Types.StringLiteral;33
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;IvParameterSpec -> hard coded array;46;0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08,0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08;Types.StringLiteral;46
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample4LocalVariable.IvParameterSpec;60;1234567812345678;Types.StringLiteral;59
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample5LocalVariable.IvParameterSpec;74;1234567812345678;Types.StringLiteral;73
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample6LocalVariable.IvParameterSpec;88;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;87
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample7NestedLocalVariable.IvParameterSpec;104;1234567812345678;Types.StringLiteral;101
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample8NestedLocalVariable.IvParameterSpec;120;1234567812345678;Types.StringLiteral;117
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample9NestedLocalVariable.IvParameterSpec;136;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;133
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample10DirectFieldAccess.IvParameterSpec;149;1234567812345678;Types.StringLiteral;12
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample11DirectFieldAccess.IvParameterSpec;162;1234567812345678;Types.StringLiteral;13
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample12DirectFieldAccess.IvParameterSpec;175;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;14
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample13IndirectFieldAccess.IvParameterSpec;189;1234567812345678;Types.StringLiteral;12
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample14IndirectFieldAccess.IvParameterSpec;203;1234567812345678;Types.StringLiteral;13
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample15IndirectFieldAccess.IvParameterSpec;217;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;14
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample16MethodCall.IvParameterSpec;230;1234567812345678;Types.StringLiteral;252
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample16MethodCall.IvParameterSpec;230;1234567812345678;Types.StringLiteral;261
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample16MethodCall.IvParameterSpec;230;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;270
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample16MethodCall.IvParameterSpec;230;1234567812345678;Types.StringLiteral;279
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample16MethodCall.IvParameterSpec;230;1234567812345678;Types.StringLiteral;288
+../resources/test_cases/java/TestRule2.java;Rule 2;critical;TestRule2.pExample16MethodCall.IvParameterSpec;230;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;297
+../resources/test_cases/java/TestRule2.java;Rule 2;warning;TestRule2.pExample17WarningParameterNotResolvable.IvParameterSpec;305;UNKNOWN;Types.Unknown;304

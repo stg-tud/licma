@@ -1,0 +1,16 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/python/PyNaCl/TestRule4c.py;PyQuery: Rule 4 | PyNaCl;critical;kdf -> hard coded bytes;13;1234567812345678;Types.StringLiteral;13
+../resources/test_cases/python/PyNaCl/TestRule4c.py;PyQuery: Rule 4 | PyNaCl;critical;kdf -> hard coded bytes;20;1234567812345678;Types.StringLiteral;20
+../resources/test_cases/python/PyNaCl/TestRule4c.py;PyQuery: Rule 4 | PyNaCl;critical;TestRule4c.TestRule4c.p_example3_local_variable1.kdf;28;1234567812345678;Types.StringLiteral;27
+../resources/test_cases/python/PyNaCl/TestRule4c.py;PyQuery: Rule 4 | PyNaCl;critical;TestRule4c.TestRule4c.p_example4_local_variable2.kdf;36;1234567812345678;Types.StringLiteral;35
+../resources/test_cases/python/PyNaCl/TestRule4c.py;PyQuery: Rule 4 | PyNaCl;critical;TestRule4c.TestRule4c.p_example5_nested_local_variable1.kdf;47;1234567812345678;Types.StringLiteral;43
+../resources/test_cases/python/PyNaCl/TestRule4c.py;PyQuery: Rule 4 | PyNaCl;critical;TestRule4c.TestRule4c.p_example6_nested_local_variable2.kdf;58;1234567812345678;Types.StringLiteral;54
+../resources/test_cases/python/PyNaCl/TestRule4c.py;PyQuery: Rule 4 | PyNaCl;critical;TestRule4c.TestRule4c.p_example_method_call.kdf;65;1234567812345678;Types.StringLiteral;75
+../resources/test_cases/python/PyNaCl/TestRule4c.py;PyQuery: Rule 4 | PyNaCl;critical;TestRule4c.TestRule4c.p_example_method_call.kdf;65;1234567812345678;Types.StringLiteral;79
+../resources/test_cases/python/PyNaCl/TestRule4c.py;PyQuery: Rule 4 | PyNaCl;critical;TestRule4c.TestRule4c.p_example_method_call.kdf;65;1234567812345678;Types.StringLiteral;83
+../resources/test_cases/python/PyNaCl/TestRule4c.py;PyQuery: Rule 4 | PyNaCl;critical;TestRule4c.TestRule4c.p_example_method_call.kdf;65;1234567812345678;Types.StringLiteral;87
+../resources/test_cases/python/PyNaCl/TestRule4c.py;PyQuery: Rule 4 | PyNaCl;critical;TestRule4c.TestRule4c.p_example11_direct_g_variable_access1.kdf;91;1234567812345678;Types.StringLiteral;8
+../resources/test_cases/python/PyNaCl/TestRule4c.py;PyQuery: Rule 4 | PyNaCl;critical;TestRule4c.TestRule4c.p_example12_direct_g_variable_access2.kdf;98;1234567812345678;Types.StringLiteral;9
+../resources/test_cases/python/PyNaCl/TestRule4c.py;PyQuery: Rule 4 | PyNaCl;critical;TestRule4c.TestRule4c.p_example13_indirect_g_variable_access1.kdf;106;1234567812345678;Types.StringLiteral;8
+../resources/test_cases/python/PyNaCl/TestRule4c.py;PyQuery: Rule 4 | PyNaCl;critical;TestRule4c.TestRule4c.p_example14_indirect_g_variable_access2.kdf;114;1234567812345678;Types.StringLiteral;9
+../resources/test_cases/python/PyNaCl/TestRule4c.py;PyQuery: Rule 4 | PyNaCl;warning;TestRule4c.TestRule4c.p_example15_warning_parameter_not_resolvable.kdf;121;UNKNOWN;Types.Unknown;120

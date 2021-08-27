@@ -1,0 +1,16 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/python/PyCrypto/TestRule1.py;PyQuery: Rule 1 | PyCrypto;critical;AES.new -> hard coded attribute;8;MODE_ECB;Types.StringLiteral;8
+../resources/test_cases/python/PyCrypto/TestRule1.py;PyQuery: Rule 1 | PyCrypto;critical;AES.new -> hard coded int;14;1;Types.NumberLiteral;14
+../resources/test_cases/python/PyCrypto/TestRule1.py;PyQuery: Rule 1 | PyCrypto;critical;TestRule1.p_example3_local_variable1.AES.new;21;MODE_ECB;Types.StringLiteral;20
+../resources/test_cases/python/PyCrypto/TestRule1.py;PyQuery: Rule 1 | PyCrypto;critical;TestRule1.p_example4_local_variable2.AES.new;28;1;Types.NumberLiteral;27
+../resources/test_cases/python/PyCrypto/TestRule1.py;PyQuery: Rule 1 | PyCrypto;critical;TestRule1.p_example5_nested_local_variable1.AES.new;38;MODE_ECB;Types.StringLiteral;34
+../resources/test_cases/python/PyCrypto/TestRule1.py;PyQuery: Rule 1 | PyCrypto;critical;TestRule1.p_example6_nested_local_variable2.AES.new;48;1;Types.NumberLiteral;44
+../resources/test_cases/python/PyCrypto/TestRule1.py;PyQuery: Rule 1 | PyCrypto;critical;TestRule1.p_example_method_call.AES.new;54;MODE_ECB;Types.StringLiteral;64
+../resources/test_cases/python/PyCrypto/TestRule1.py;PyQuery: Rule 1 | PyCrypto;critical;TestRule1.p_example_method_call.AES.new;54;1;Types.NumberLiteral;69
+../resources/test_cases/python/PyCrypto/TestRule1.py;PyQuery: Rule 1 | PyCrypto;critical;TestRule1.p_example_method_call.AES.new;54;MODE_ECB;Types.StringLiteral;74
+../resources/test_cases/python/PyCrypto/TestRule1.py;PyQuery: Rule 1 | PyCrypto;critical;TestRule1.p_example_method_call.AES.new;54;1;Types.NumberLiteral;79
+../resources/test_cases/python/PyCrypto/TestRule1.py;PyQuery: Rule 1 | PyCrypto;critical;TestRule1.p_example11_direct_g_variable_access1.AES.new;84;MODE_ECB;Types.StringLiteral;3
+../resources/test_cases/python/PyCrypto/TestRule1.py;PyQuery: Rule 1 | PyCrypto;critical;TestRule1.p_example12_direct_g_variable_access2.AES.new;90;1;Types.NumberLiteral;4
+../resources/test_cases/python/PyCrypto/TestRule1.py;PyQuery: Rule 1 | PyCrypto;critical;TestRule1.p_example13_indirect_g_variable_access1.AES.new;97;MODE_ECB;Types.StringLiteral;3
+../resources/test_cases/python/PyCrypto/TestRule1.py;PyQuery: Rule 1 | PyCrypto;critical;TestRule1.p_example14_indirect_g_variable_access2.AES.new;104;1;Types.NumberLiteral;4
+../resources/test_cases/python/PyCrypto/TestRule1.py;PyQuery: Rule 1 | PyCrypto;warning;TestRule1.p_example15_warning_parameter_not_resolvable.AES.new;110;UNKNOWN;Types.Unknown;109

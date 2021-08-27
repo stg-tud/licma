@@ -1,0 +1,32 @@
+    public static void main(String[] args) throws NoSuchAlgorithmException, BadPaddingException, InvalidKeyException, IllegalBlockSizeException, NoSuchPaddingException, InvalidKeySpecException, InvalidAlgorithmParameterException {
+        ExampleCodeRule1 exampleCodeRule1 = new ExampleCodeRule1();
+
+        KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
+        int keySize = 128;
+        keyGenerator.init(keySize);
+        SecretKey secretKey = keyGenerator.generateKey();
+
+        byte[] plaintext = "Test example code for rule 1.".getBytes(StandardCharsets.UTF_8);
+
+        /**
+         * Positive example
+         */
+        TestHelper.test("Test rule 1 example 1", plaintext, TestHelper.decrypt(exampleCodeRule1.example1(plaintext, secretKey), secretKey, "AES"));
+        TestHelper.test("Test rule 1 example 2", plaintext, TestHelper.decrypt(exampleCodeRule1.example2(plaintext, secretKey), secretKey, "AES/ECB/PKCS5Padding"));
+        TestHelper.test("Test rule 1 example 3", plaintext, TestHelper.decrypt(exampleCodeRule1.example3(plaintext, secretKey), secretKey, "AES/ECB/PKCS5Padding"));
+        TestHelper.test("Test rule 1 example 4", plaintext, TestHelper.decrypt(exampleCodeRule1.example4(plaintext, secretKey, "AES/ECB/PKCS5Padding"), secretKey, "AES/ECB/PKCS5Padding"));
+
+        String password = "topsecret";
+        byte[] saltRandom = new byte[8];
+        Random random = new SecureRandom();
+        random.nextBytes(saltRandom);
+        int iterationCount = 1000;
+        /**
+         * Negative example
+         */
+        TestHelper.test("Test rule 1 example 5", plaintext, TestHelper.decryptPBEWithConstantSalt(exampleCodeRule1.example5(plaintext, password, saltRandom, iterationCount), password, saltRandom, "PBEWithMD5AndDES", iterationCount));
+
+    }
+
+
+}

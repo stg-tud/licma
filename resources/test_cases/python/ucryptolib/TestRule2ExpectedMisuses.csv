@@ -1,0 +1,16 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/python/ucryptolib/TestRule2.py;PyQuery: Rule 2 | ucryptolib;critical;aes -> hard coded bytes;10;1234567812345678;Types.StringLiteral;10
+../resources/test_cases/python/ucryptolib/TestRule2.py;PyQuery: Rule 2 | ucryptolib;critical;aes -> hard coded bytes;16;1234567812345678;Types.StringLiteral;16
+../resources/test_cases/python/ucryptolib/TestRule2.py;PyQuery: Rule 2 | ucryptolib;critical;TestRule2.p_example3_local_variable1.aes;23;1234567812345678;Types.StringLiteral;22
+../resources/test_cases/python/ucryptolib/TestRule2.py;PyQuery: Rule 2 | ucryptolib;critical;TestRule2.p_example4_local_variable2.aes;30;1234567812345678;Types.StringLiteral;29
+../resources/test_cases/python/ucryptolib/TestRule2.py;PyQuery: Rule 2 | ucryptolib;critical;TestRule2.p_example5_nested_local_variable1.aes;40;1234567812345678;Types.StringLiteral;36
+../resources/test_cases/python/ucryptolib/TestRule2.py;PyQuery: Rule 2 | ucryptolib;critical;TestRule2.p_example6_nested_local_variable2.aes;50;1234567812345678;Types.StringLiteral;46
+../resources/test_cases/python/ucryptolib/TestRule2.py;PyQuery: Rule 2 | ucryptolib;critical;TestRule2.p_example_method_call.aes;56;1234567812345678;Types.StringLiteral;66
+../resources/test_cases/python/ucryptolib/TestRule2.py;PyQuery: Rule 2 | ucryptolib;critical;TestRule2.p_example_method_call.aes;56;1234567812345678;Types.StringLiteral;71
+../resources/test_cases/python/ucryptolib/TestRule2.py;PyQuery: Rule 2 | ucryptolib;critical;TestRule2.p_example_method_call.aes;56;1234567812345678;Types.StringLiteral;76
+../resources/test_cases/python/ucryptolib/TestRule2.py;PyQuery: Rule 2 | ucryptolib;critical;TestRule2.p_example_method_call.aes;56;1234567812345678;Types.StringLiteral;81
+../resources/test_cases/python/ucryptolib/TestRule2.py;PyQuery: Rule 2 | ucryptolib;critical;TestRule2.p_example11_direct_g_variable_access1.aes;86;1234567812345678;Types.StringLiteral;5
+../resources/test_cases/python/ucryptolib/TestRule2.py;PyQuery: Rule 2 | ucryptolib;critical;TestRule2.p_example12_direct_g_variable_access2.aes;92;1234567812345678;Types.StringLiteral;6
+../resources/test_cases/python/ucryptolib/TestRule2.py;PyQuery: Rule 2 | ucryptolib;critical;TestRule2.p_example13_indirect_g_variable_access1.aes;99;1234567812345678;Types.StringLiteral;5
+../resources/test_cases/python/ucryptolib/TestRule2.py;PyQuery: Rule 2 | ucryptolib;critical;TestRule2.p_example14_indirect_g_variable_access2.aes;106;1234567812345678;Types.StringLiteral;6
+../resources/test_cases/python/ucryptolib/TestRule2.py;PyQuery: Rule 2 | ucryptolib;warning;TestRule2.p_example15_warning_parameter_not_resolvable.aes;112;UNKNOWN;Types.Unknown;111

@@ -1,0 +1,16 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/python/M2Crypto/TestRule2.py;PyQuery: Rule 2 | M2Crypto;critical;Cipher -> hard coded bytes;11;1234567812345678;Types.StringLiteral;11
+../resources/test_cases/python/M2Crypto/TestRule2.py;PyQuery: Rule 2 | M2Crypto;critical;Cipher -> hard coded bytes;17;1234567812345678;Types.StringLiteral;17
+../resources/test_cases/python/M2Crypto/TestRule2.py;PyQuery: Rule 2 | M2Crypto;critical;TestRule2.p_example3_local_variable1.Cipher;24;1234567812345678;Types.StringLiteral;23
+../resources/test_cases/python/M2Crypto/TestRule2.py;PyQuery: Rule 2 | M2Crypto;critical;TestRule2.p_example4_local_variable2.Cipher;31;1234567812345678;Types.StringLiteral;30
+../resources/test_cases/python/M2Crypto/TestRule2.py;PyQuery: Rule 2 | M2Crypto;critical;TestRule2.p_example5_nested_local_variable1.Cipher;41;1234567812345678;Types.StringLiteral;37
+../resources/test_cases/python/M2Crypto/TestRule2.py;PyQuery: Rule 2 | M2Crypto;critical;TestRule2.p_example6_nested_local_variable2.Cipher;51;1234567812345678;Types.StringLiteral;47
+../resources/test_cases/python/M2Crypto/TestRule2.py;PyQuery: Rule 2 | M2Crypto;critical;TestRule2.p_example_method_call.Cipher;57;1234567812345678;Types.StringLiteral;67
+../resources/test_cases/python/M2Crypto/TestRule2.py;PyQuery: Rule 2 | M2Crypto;critical;TestRule2.p_example_method_call.Cipher;57;1234567812345678;Types.StringLiteral;72
+../resources/test_cases/python/M2Crypto/TestRule2.py;PyQuery: Rule 2 | M2Crypto;critical;TestRule2.p_example_method_call.Cipher;57;1234567812345678;Types.StringLiteral;77
+../resources/test_cases/python/M2Crypto/TestRule2.py;PyQuery: Rule 2 | M2Crypto;critical;TestRule2.p_example_method_call.Cipher;57;1234567812345678;Types.StringLiteral;82
+../resources/test_cases/python/M2Crypto/TestRule2.py;PyQuery: Rule 2 | M2Crypto;critical;TestRule2.p_example11_direct_g_variable_access1.Cipher;87;1234567812345678;Types.StringLiteral;6
+../resources/test_cases/python/M2Crypto/TestRule2.py;PyQuery: Rule 2 | M2Crypto;critical;TestRule2.p_example12_direct_g_variable_access2.Cipher;93;1234567812345678;Types.StringLiteral;7
+../resources/test_cases/python/M2Crypto/TestRule2.py;PyQuery: Rule 2 | M2Crypto;critical;TestRule2.p_example13_indirect_g_variable_access1.Cipher;100;1234567812345678;Types.StringLiteral;6
+../resources/test_cases/python/M2Crypto/TestRule2.py;PyQuery: Rule 2 | M2Crypto;critical;TestRule2.p_example14_indirect_g_variable_access2.Cipher;107;1234567812345678;Types.StringLiteral;7
+../resources/test_cases/python/M2Crypto/TestRule2.py;PyQuery: Rule 2 | M2Crypto;warning;TestRule2.p_example15_warning_parameter_not_resolvable.Cipher;113;UNKNOWN;Types.Unknown;112

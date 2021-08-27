@@ -1,0 +1,23 @@
+version: '3'
+services:
+  bblfsh:
+    container_name: "bblfsh"
+    image: "bblfsh/bblfshd:latest-drivers"
+    ports:
+      - "9432:9432"
+    volumes:
+      - ~/:/usr/home
+      - ${DATA}:/usr/data
+    privileged: true
+  licma:
+    container_name: "licma"
+    build: .
+    depends_on:
+      - "bblfsh"
+    environment:
+      - LICMA_LOCATION=DOCKER
+    stdin_open: true
+    tty: true
+    volumes:
+      - ~/:/usr/home
+      - ${DATA}:/usr/data

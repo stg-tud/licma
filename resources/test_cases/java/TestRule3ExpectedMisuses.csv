@@ -1,0 +1,25 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;SecretKeySpec -> hard coded string;17;1234567812345678;Types.StringLiteral;17
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;SecretKeySpec -> hard coded array;29;1234567812345678;Types.StringLiteral;29
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;SecretKeySpec -> hard coded array;41;0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08,0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08;Types.StringLiteral;41
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample4LocalVariable.SecretKeySpec;55;1234567812345678;Types.StringLiteral;53
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample5LocalVariable.SecretKeySpec;69;1234567812345678;Types.StringLiteral;67
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample6LocalVariable.SecretKeySpec;85;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;81
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample7NestedLocalVariable.SecretKeySpec;101;1234567812345678;Types.StringLiteral;97
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample8NestedLocalVariable.SecretKeySpec;117;1234567812345678;Types.StringLiteral;113
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample9NestedLocalVariable.SecretKeySpec;133;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;129
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample10DirectFieldAccess.SecretKeySpec;145;1234567812345678;Types.StringLiteral;9
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample11DirectFieldAccess.SecretKeySpec;157;1234567812345678;Types.StringLiteral;10
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample12DirectFieldAccess.SecretKeySpec;169;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;11
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample13IndirectFieldAccess.SecretKeySpec;182;1234567812345678;Types.StringLiteral;9
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample14IndirectFieldAccess.SecretKeySpec;195;1234567812345678;Types.StringLiteral;10
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample15IndirectFieldAccess.SecretKeySpec;208;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;11
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample16MethodCallKeyString.SecretKeySpec;220;1234567812345678;Types.StringLiteral;241
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample16MethodCallKeyString.SecretKeySpec;220;1234567812345678;Types.StringLiteral;250
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample17MethodCall.SecretKeySpec;258;1234567812345678;Types.StringLiteral;279
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample17MethodCall.SecretKeySpec;258;1234567812345678;Types.StringLiteral;288
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample17MethodCall.SecretKeySpec;258;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;297
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample17MethodCall.SecretKeySpec;258;1234567812345678;Types.StringLiteral;306
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample17MethodCall.SecretKeySpec;258;1234567812345678;Types.StringLiteral;315
+../resources/test_cases/java/TestRule3.java;Rule 3;critical;TestRule3.pExample17MethodCall.SecretKeySpec;258;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;324
+../resources/test_cases/java/TestRule3.java;Rule 3;warning;TestRule3.pExample18WarningParameterNotResolvable.SecretKeySpec;332;UNKNOWN;Types.Unknown;331

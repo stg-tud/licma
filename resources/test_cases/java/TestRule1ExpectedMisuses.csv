@@ -1,0 +1,11 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/java/TestRule1.java;Rule 1;critical;Cipher.getInstance -> hard coded string;20;AES;Types.StringLiteral;20
+../resources/test_cases/java/TestRule1.java;Rule 1;critical;Cipher.getInstance -> hard coded string;29;AES/ECB/PKCS5Padding;Types.StringLiteral;29
+../resources/test_cases/java/TestRule1.java;Rule 1;critical;TestRule1.pExample3LocalVariable.Cipher.getInstance;41;AES/ECB/PKCS5Padding;Types.StringLiteral;38
+../resources/test_cases/java/TestRule1.java;Rule 1;critical;TestRule1.pExample4MethodCall.Cipher.getInstance;50;AES;Types.StringLiteral;13
+../resources/test_cases/java/TestRule1.java;Rule 1;critical;TestRule1.pExample4MethodCall.Cipher.getInstance;50;AES/ECB/PKCS5Padding;Types.StringLiteral;68
+../resources/test_cases/java/TestRule1.java;Rule 1;critical;TestRule1.pExample4MethodCall.Cipher.getInstance;50;AES/ECB/PKCS5Padding;Types.StringLiteral;78
+../resources/test_cases/java/TestRule1.java;Rule 1;critical;TestRule1.pExample5NestedLocalVariable.Cipher.getInstance;101;AES;Types.StringLiteral;98
+../resources/test_cases/java/TestRule1.java;Rule 1;critical;TestRule1.pExample6DirectFieldAccess.Cipher.getInstance;110;AES;Types.StringLiteral;13
+../resources/test_cases/java/TestRule1.java;Rule 1;critical;TestRule1.pExample7IndirectFieldAccess.Cipher.getInstance;121;AES;Types.StringLiteral;13
+../resources/test_cases/java/TestRule1.java;Rule 1;warning;TestRule1.pExample8WarningParameterNotResolvable.Cipher.getInstance;130;UNKNOWN;Types.Unknown;129

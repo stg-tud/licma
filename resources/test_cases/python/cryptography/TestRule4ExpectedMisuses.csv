@@ -1,0 +1,16 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/python/cryptography/TestRule4.py;PyQuery: Rule 4 | cryptography;critical;PBKDF2HMAC -> hard coded bytes;13;12345678;Types.StringLiteral;13
+../resources/test_cases/python/cryptography/TestRule4.py;PyQuery: Rule 4 | cryptography;critical;PBKDF2HMAC -> hard coded bytes;23;12345678;Types.StringLiteral;23
+../resources/test_cases/python/cryptography/TestRule4.py;PyQuery: Rule 4 | cryptography;critical;TestRule4.p_example3_local_variable1.PBKDF2HMAC;34;12345678;Types.StringLiteral;33
+../resources/test_cases/python/cryptography/TestRule4.py;PyQuery: Rule 4 | cryptography;critical;TestRule4.p_example4_local_variable2.PBKDF2HMAC;45;12345678;Types.StringLiteral;44
+../resources/test_cases/python/cryptography/TestRule4.py;PyQuery: Rule 4 | cryptography;critical;TestRule4.p_example5_nested_local_variable1.PBKDF2HMAC;59;12345678;Types.StringLiteral;55
+../resources/test_cases/python/cryptography/TestRule4.py;PyQuery: Rule 4 | cryptography;critical;TestRule4.p_example6_nested_local_variable2.PBKDF2HMAC;73;12345678;Types.StringLiteral;69
+../resources/test_cases/python/cryptography/TestRule4.py;PyQuery: Rule 4 | cryptography;critical;TestRule4.p_example_method_call.PBKDF2HMAC;83;12345678;Types.StringLiteral;97
+../resources/test_cases/python/cryptography/TestRule4.py;PyQuery: Rule 4 | cryptography;critical;TestRule4.p_example_method_call.PBKDF2HMAC;83;12345678;Types.StringLiteral;102
+../resources/test_cases/python/cryptography/TestRule4.py;PyQuery: Rule 4 | cryptography;critical;TestRule4.p_example_method_call.PBKDF2HMAC;83;12345678;Types.StringLiteral;107
+../resources/test_cases/python/cryptography/TestRule4.py;PyQuery: Rule 4 | cryptography;critical;TestRule4.p_example_method_call.PBKDF2HMAC;83;12345678;Types.StringLiteral;112
+../resources/test_cases/python/cryptography/TestRule4.py;PyQuery: Rule 4 | cryptography;critical;TestRule4.p_example11_direct_g_variable_access1.PBKDF2HMAC;117;12345678;Types.StringLiteral;8
+../resources/test_cases/python/cryptography/TestRule4.py;PyQuery: Rule 4 | cryptography;critical;TestRule4.p_example12_direct_g_variable_access2.PBKDF2HMAC;127;12345678;Types.StringLiteral;9
+../resources/test_cases/python/cryptography/TestRule4.py;PyQuery: Rule 4 | cryptography;critical;TestRule4.p_example13_indirect_g_variable_access1.PBKDF2HMAC;138;12345678;Types.StringLiteral;8
+../resources/test_cases/python/cryptography/TestRule4.py;PyQuery: Rule 4 | cryptography;critical;TestRule4.p_example14_indirect_g_variable_access2.PBKDF2HMAC;149;12345678;Types.StringLiteral;9
+../resources/test_cases/python/cryptography/TestRule4.py;PyQuery: Rule 4 | cryptography;warning;TestRule4.p_example15_warning_parameter_not_resolvable.PBKDF2HMAC;159;UNKNOWN;Types.Unknown;158

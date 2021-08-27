@@ -1,0 +1,16 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/python/PyNaCl/TestRule3.py;PyQuery: Rule 3 | PyNaCl;critical;SecretBox -> hard coded bytes;10;12345678123456781234567812345678;Types.StringLiteral;10
+../resources/test_cases/python/PyNaCl/TestRule3.py;PyQuery: Rule 3 | PyNaCl;critical;SecretBox -> hard coded bytes;16;12345678123456781234567812345678;Types.StringLiteral;16
+../resources/test_cases/python/PyNaCl/TestRule3.py;PyQuery: Rule 3 | PyNaCl;critical;TestRule3.p_example3_local_variable1.SecretBox;23;12345678123456781234567812345678;Types.StringLiteral;22
+../resources/test_cases/python/PyNaCl/TestRule3.py;PyQuery: Rule 3 | PyNaCl;critical;TestRule3.p_example4_local_variable2.SecretBox;30;12345678123456781234567812345678;Types.StringLiteral;29
+../resources/test_cases/python/PyNaCl/TestRule3.py;PyQuery: Rule 3 | PyNaCl;critical;TestRule3.p_example5_nested_local_variable1.SecretBox;40;12345678123456781234567812345678;Types.StringLiteral;36
+../resources/test_cases/python/PyNaCl/TestRule3.py;PyQuery: Rule 3 | PyNaCl;critical;TestRule3.p_example6_nested_local_variable2.SecretBox;50;12345678123456781234567812345678;Types.StringLiteral;46
+../resources/test_cases/python/PyNaCl/TestRule3.py;PyQuery: Rule 3 | PyNaCl;critical;TestRule3.p_example_method_call.SecretBox;56;12345678123456781234567812345678;Types.StringLiteral;66
+../resources/test_cases/python/PyNaCl/TestRule3.py;PyQuery: Rule 3 | PyNaCl;critical;TestRule3.p_example_method_call.SecretBox;56;12345678123456781234567812345678;Types.StringLiteral;71
+../resources/test_cases/python/PyNaCl/TestRule3.py;PyQuery: Rule 3 | PyNaCl;critical;TestRule3.p_example_method_call.SecretBox;56;12345678123456781234567812345678;Types.StringLiteral;76
+../resources/test_cases/python/PyNaCl/TestRule3.py;PyQuery: Rule 3 | PyNaCl;critical;TestRule3.p_example_method_call.SecretBox;56;12345678123456781234567812345678;Types.StringLiteral;81
+../resources/test_cases/python/PyNaCl/TestRule3.py;PyQuery: Rule 3 | PyNaCl;critical;TestRule3.p_example11_direct_g_variable_access1.SecretBox;86;12345678123456781234567812345678;Types.StringLiteral;4
+../resources/test_cases/python/PyNaCl/TestRule3.py;PyQuery: Rule 3 | PyNaCl;critical;TestRule3.p_example12_direct_g_variable_access2.SecretBox;92;12345678123456781234567812345678;Types.StringLiteral;5
+../resources/test_cases/python/PyNaCl/TestRule3.py;PyQuery: Rule 3 | PyNaCl;critical;TestRule3.p_example13_indirect_g_variable_access1.SecretBox;99;12345678123456781234567812345678;Types.StringLiteral;4
+../resources/test_cases/python/PyNaCl/TestRule3.py;PyQuery: Rule 3 | PyNaCl;critical;TestRule3.p_example14_indirect_g_variable_access2.SecretBox;106;12345678123456781234567812345678;Types.StringLiteral;5
+../resources/test_cases/python/PyNaCl/TestRule3.py;PyQuery: Rule 3 | PyNaCl;warning;TestRule3.p_example15_warning_parameter_not_resolvable.SecretBox;112;UNKNOWN;Types.Unknown;111

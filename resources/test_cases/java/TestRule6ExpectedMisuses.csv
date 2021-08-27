@@ -1,0 +1,23 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;SecureRandom -> hard coded string;14;12345678;Types.StringLiteral;14
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;SecureRandom -> hard coded array;21;12345678;Types.StringLiteral;21
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;SecureRandom -> hard coded array;28;0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08;Types.StringLiteral;28
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample4LocalVariable.SecureRandom;37;12345678;Types.StringLiteral;35
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample5LocalVariable.SecureRandom;46;12345678;Types.StringLiteral;44
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample6LocalVariable.SecureRandom;55;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;53
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample7NestedLocalVariable.SecureRandom;66;12345678;Types.StringLiteral;62
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample8NestedLocalVariable.SecureRandom;77;12345678;Types.StringLiteral;73
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample9NestedLocalVariable.SecureRandom;88;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;84
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample10DirectFieldAccess.SecureRandom;95;12345678;Types.StringLiteral;6
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample11DirectFieldAccess.SecureRandom;102;12345678;Types.StringLiteral;7
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample12DirectFieldAccess.SecureRandom;109;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;8
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample13IndirectFieldAccess.SecureRandom;118;12345678;Types.StringLiteral;6
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample14IndirectFieldAccess.SecureRandom;127;12345678;Types.StringLiteral;7
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample15IndirectFieldAccess.SecureRandom;136;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;8
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample16MethodCall.SecureRandom;143;12345678;Types.StringLiteral;159
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample16MethodCall.SecureRandom;143;12345678;Types.StringLiteral;169
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample16MethodCall.SecureRandom;143;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;179
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample16MethodCall.SecureRandom;143;12345678;Types.StringLiteral;189
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample16MethodCall.SecureRandom;143;12345678;Types.StringLiteral;199
+../resources/test_cases/java/TestRule6.java;JRule 6;critical;TestRule6.pExample16MethodCall.SecureRandom;143;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;209
+../resources/test_cases/java/TestRule6.java;JRule 6;warning;TestRule6.pExample17WarningParameterNotResolvable.SecureRandom;218;UNKNOWN;Types.Unknown;217

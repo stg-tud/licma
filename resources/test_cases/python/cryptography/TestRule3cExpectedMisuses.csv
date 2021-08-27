@@ -1,0 +1,31 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;Cipher -> hard coded bytes;17;1234567812345678;Types.StringLiteral;17
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;Cipher -> hard coded bytes;23;1234567812345678;Types.StringLiteral;23
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;Fernet -> hard coded bytes;29;12345678123456781234567812345678;Types.StringLiteral;29
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;Fernet -> hard coded bytes;34;12345678123456781234567812345678;Types.StringLiteral;34
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example5_local_variable1.Cipher;41;1234567812345678;Types.StringLiteral;40
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example6_local_variable2.Cipher;48;1234567812345678;Types.StringLiteral;47
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example7_local_variable3.Fernet;55;12345678123456781234567812345678;Types.StringLiteral;54
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example8_local_variable4.Fernet;61;12345678123456781234567812345678;Types.StringLiteral;60
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example9_nested_local_variable1.Cipher;70;1234567812345678;Types.StringLiteral;66
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example10_nested_local_variable2.Cipher;80;1234567812345678;Types.StringLiteral;76
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example11_nested_local_variable3.Fernet;90;12345678123456781234567812345678;Types.StringLiteral;86
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example12_nested_local_variable4.Fernet;99;12345678123456781234567812345678;Types.StringLiteral;95
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example_method_call1.Cipher;104;1234567812345678;Types.StringLiteral;121
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example_method_call1.Cipher;104;1234567812345678;Types.StringLiteral;125
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example_method_call1.Cipher;104;1234567812345678;Types.StringLiteral;137
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example_method_call1.Cipher;104;1234567812345678;Types.StringLiteral;141
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example_method_call2.Fernet;110;12345678123456781234567812345678;Types.StringLiteral;129
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example_method_call2.Fernet;110;12345678123456781234567812345678;Types.StringLiteral;133
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example_method_call2.Fernet;110;12345678123456781234567812345678;Types.StringLiteral;145
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example_method_call2.Fernet;110;12345678123456781234567812345678;Types.StringLiteral;149
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example21_direct_g_variable_access1.Cipher;153;1234567812345678;Types.StringLiteral;11
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example22_direct_g_variable_access2.Cipher;159;1234567812345678;Types.StringLiteral;12
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example23_direct_g_variable_access3.Fernet;165;12345678123456781234567812345678;Types.StringLiteral;13
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example24_direct_g_variable_access4.Fernet;170;12345678123456781234567812345678;Types.StringLiteral;14
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example25_indirect_g_variable_access1.Cipher;176;1234567812345678;Types.StringLiteral;11
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example26_indirect_g_variable_access2.Cipher;183;1234567812345678;Types.StringLiteral;12
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example27_indirect_g_variable_access3.Fernet;190;12345678123456781234567812345678;Types.StringLiteral;13
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;critical;TestRule3c.TestRule3c.p_example28_indirect_g_variable_access4.Fernet;196;12345678123456781234567812345678;Types.StringLiteral;14
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;warning;TestRule3c.TestRule3c.p_example29_warning_parameter_not_resolvable1.Cipher;201;UNKNOWN;Types.Unknown;200
+../resources/test_cases/python/cryptography/TestRule3c.py;PyQuery: Rule 3 | cryptography;warning;TestRule3c.TestRule3c.p_example30_warning_parameter_not_resolvable2.Fernet;207;UNKNOWN;Types.Unknown;206

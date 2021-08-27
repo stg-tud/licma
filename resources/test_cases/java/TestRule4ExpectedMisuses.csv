@@ -1,0 +1,45 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;PBEKeySpec -> hard coded string;21;12345678;Types.StringLiteral;21
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;PBEParameterSpec -> hard coded string;22;12345678;Types.StringLiteral;22
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;PBEKeySpec -> hard coded array;34;12345678;Types.StringLiteral;34
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;PBEParameterSpec -> hard coded array;35;12345678;Types.StringLiteral;35
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;PBEKeySpec -> hard coded array;47;0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08;Types.StringLiteral;47
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;PBEParameterSpec -> hard coded array;48;0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08;Types.StringLiteral;48
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample4LocalVariable.PBEKeySpec;62;12345678;Types.StringLiteral;60
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample4LocalVariable.PBEParameterSpec;63;12345678;Types.StringLiteral;60
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample5LocalVariable.PBEKeySpec;77;12345678;Types.StringLiteral;75
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample5LocalVariable.PBEParameterSpec;78;12345678;Types.StringLiteral;75
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample6LocalVariable.PBEKeySpec;92;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;90
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample6LocalVariable.PBEParameterSpec;93;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;90
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample7NestedLocalVariable.PBEKeySpec;109;12345678;Types.StringLiteral;105
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample7NestedLocalVariable.PBEParameterSpec;110;12345678;Types.StringLiteral;105
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample8NestedLocalVariable.PBEKeySpec;126;12345678;Types.StringLiteral;122
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample8NestedLocalVariable.PBEParameterSpec;127;12345678;Types.StringLiteral;122
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample9NestedLocalVariable.PBEKeySpec;143;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;139
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample9NestedLocalVariable.PBEParameterSpec;144;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;139
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample10DirectFieldAccess.PBEKeySpec;156;12345678;Types.StringLiteral;13
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample10DirectFieldAccess.PBEParameterSpec;157;12345678;Types.StringLiteral;13
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample11DirectFieldAccess.PBEKeySpec;169;12345678;Types.StringLiteral;14
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample11DirectFieldAccess.PBEParameterSpec;170;12345678;Types.StringLiteral;14
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample12DirectFieldAccess.PBEKeySpec;182;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;15
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample12DirectFieldAccess.PBEParameterSpec;183;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;15
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample13IndirectFieldAccess.PBEKeySpec;197;12345678;Types.StringLiteral;13
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample13IndirectFieldAccess.PBEParameterSpec;198;12345678;Types.StringLiteral;13
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample14IndirectFieldAccess.PBEKeySpec;212;12345678;Types.StringLiteral;14
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample14IndirectFieldAccess.PBEParameterSpec;213;12345678;Types.StringLiteral;14
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample15IndirectFieldAccess.PBEKeySpec;227;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;15
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample15IndirectFieldAccess.PBEParameterSpec;228;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;15
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample16MethodCall.PBEKeySpec;240;12345678;Types.StringLiteral;262
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample16MethodCall.PBEKeySpec;240;12345678;Types.StringLiteral;272
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample16MethodCall.PBEKeySpec;240;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;282
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample16MethodCall.PBEKeySpec;240;12345678;Types.StringLiteral;292
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample16MethodCall.PBEKeySpec;240;12345678;Types.StringLiteral;302
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample16MethodCall.PBEKeySpec;240;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;312
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample16MethodCall.PBEParameterSpec;241;12345678;Types.StringLiteral;262
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample16MethodCall.PBEParameterSpec;241;12345678;Types.StringLiteral;272
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample16MethodCall.PBEParameterSpec;241;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;282
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample16MethodCall.PBEParameterSpec;241;12345678;Types.StringLiteral;292
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample16MethodCall.PBEParameterSpec;241;12345678;Types.StringLiteral;302
+../resources/test_cases/java/TestRule4.java;JRule 4;critical;TestRule4.pExample16MethodCall.PBEParameterSpec;241;0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08;Types.StringLiteral;312
+../resources/test_cases/java/TestRule4.java;JRule 4;warning;TestRule4.pExample17WarningParameterNotResolvable.PBEKeySpec;321;UNKNOWN;Types.Unknown;320
+../resources/test_cases/java/TestRule4.java;JRule 4;warning;TestRule4.pExample17WarningParameterNotResolvable.PBEParameterSpec;322;UNKNOWN;Types.Unknown;320

@@ -1,0 +1,9 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/python/cryptography/TestRule1.py;PyQuery: Rule 1 | cryptography;critical;Cipher -> hard coded attribute;9;ECB;Types.StringLiteral;9
+../resources/test_cases/python/cryptography/TestRule1.py;PyQuery: Rule 1 | cryptography;critical;TestRule1.p_example2_local_variable.Cipher;17;ECB;Types.StringLiteral;16
+../resources/test_cases/python/cryptography/TestRule1.py;PyQuery: Rule 1 | cryptography;critical;TestRule1.p_example3_nested_local_variable.Cipher;28;ECB;Types.StringLiteral;24
+../resources/test_cases/python/cryptography/TestRule1.py;PyQuery: Rule 1 | cryptography;critical;TestRule1.p_example_method_call.Cipher;35;ECB;Types.StringLiteral;46
+../resources/test_cases/python/cryptography/TestRule1.py;PyQuery: Rule 1 | cryptography;critical;TestRule1.p_example_method_call.Cipher;35;ECB;Types.StringLiteral;51
+../resources/test_cases/python/cryptography/TestRule1.py;PyQuery: Rule 1 | cryptography;critical;TestRule1.p_example6_direct_g_variable_access.Cipher;56;ECB;Types.StringLiteral;5
+../resources/test_cases/python/cryptography/TestRule1.py;PyQuery: Rule 1 | cryptography;critical;TestRule1.p_example7_indirect_g_variable_access.Cipher;64;ECB;Types.StringLiteral;5
+../resources/test_cases/python/cryptography/TestRule1.py;PyQuery: Rule 1 | cryptography;warning;TestRule1.p_example8_warning_parameter_not_resolvable.Cipher;71;UNKNOWN;Types.Unknown;70

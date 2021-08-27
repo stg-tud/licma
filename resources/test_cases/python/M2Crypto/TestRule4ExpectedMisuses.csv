@@ -1,0 +1,16 @@
+File;Rule;Hit-Type;Misuse;Misuse-Line;Parameter-Value;Parameter-Type;Parameter-Line
+../resources/test_cases/python/M2Crypto/TestRule4.py;PyQuery: Rule 4 | M2Crypto;critical;pbkdf2 -> hard coded bytes;13;12345678;Types.StringLiteral;13
+../resources/test_cases/python/M2Crypto/TestRule4.py;PyQuery: Rule 4 | M2Crypto;critical;pbkdf2 -> hard coded bytes;21;12345678;Types.StringLiteral;21
+../resources/test_cases/python/M2Crypto/TestRule4.py;PyQuery: Rule 4 | M2Crypto;critical;TestRule4.p_example3_local_variable1.pbkdf2;30;12345678;Types.StringLiteral;29
+../resources/test_cases/python/M2Crypto/TestRule4.py;PyQuery: Rule 4 | M2Crypto;critical;TestRule4.p_example4_local_variable2.pbkdf2;39;12345678;Types.StringLiteral;38
+../resources/test_cases/python/M2Crypto/TestRule4.py;PyQuery: Rule 4 | M2Crypto;critical;TestRule4.p_example5_nested_local_variable1.pbkdf2;51;12345678;Types.StringLiteral;47
+../resources/test_cases/python/M2Crypto/TestRule4.py;PyQuery: Rule 4 | M2Crypto;critical;TestRule4.p_example6_nested_local_variable2.pbkdf2;63;12345678;Types.StringLiteral;59
+../resources/test_cases/python/M2Crypto/TestRule4.py;PyQuery: Rule 4 | M2Crypto;critical;TestRule4.p_example_method_call.pbkdf2;71;12345678;Types.StringLiteral;83
+../resources/test_cases/python/M2Crypto/TestRule4.py;PyQuery: Rule 4 | M2Crypto;critical;TestRule4.p_example_method_call.pbkdf2;71;12345678;Types.StringLiteral;88
+../resources/test_cases/python/M2Crypto/TestRule4.py;PyQuery: Rule 4 | M2Crypto;critical;TestRule4.p_example_method_call.pbkdf2;71;12345678;Types.StringLiteral;93
+../resources/test_cases/python/M2Crypto/TestRule4.py;PyQuery: Rule 4 | M2Crypto;critical;TestRule4.p_example_method_call.pbkdf2;71;12345678;Types.StringLiteral;98
+../resources/test_cases/python/M2Crypto/TestRule4.py;PyQuery: Rule 4 | M2Crypto;critical;TestRule4.p_example11_direct_g_variable_access1.pbkdf2;103;12345678;Types.StringLiteral;7
+../resources/test_cases/python/M2Crypto/TestRule4.py;PyQuery: Rule 4 | M2Crypto;critical;TestRule4.p_example12_direct_g_variable_access2.pbkdf2;111;12345678;Types.StringLiteral;8
+../resources/test_cases/python/M2Crypto/TestRule4.py;PyQuery: Rule 4 | M2Crypto;critical;TestRule4.p_example13_indirect_g_variable_access1.pbkdf2;120;12345678;Types.StringLiteral;7
+../resources/test_cases/python/M2Crypto/TestRule4.py;PyQuery: Rule 4 | M2Crypto;critical;TestRule4.p_example14_indirect_g_variable_access2.pbkdf2;129;12345678;Types.StringLiteral;8
+../resources/test_cases/python/M2Crypto/TestRule4.py;PyQuery: Rule 4 | M2Crypto;warning;TestRule4.p_example15_warning_parameter_not_resolvable.pbkdf2;137;UNKNOWN;Types.Unknown;136
