@@ -41,6 +41,10 @@ is located.
 - [-i] input directory or file
 - [-o] output directory (default='../output')
 
+## Publications
+
+This analysis was used in the publication **Python Crypto Misuses in the Wild** by Anna-Katharina Wickert (@akwick), Lars Baumgärtner (@gh0st42), Florian Breitfelder (@Breitfelder), and Mira Mezini (@miramezini) at ESEM'21. 
+
 ## References
 [1] Manuel Egele, David Brumley, Yanick Fratantonio, and Christopher Kruegel.
 An empirical study of cryptographic misuse in android applications. In Ahmad-Reza Sadeghi, Virgil Gligor, and Moti Yung, editors,
