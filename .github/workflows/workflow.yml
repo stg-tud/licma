@@ -1,0 +1,21 @@
+name: Upload to Figshare
+on: [push]
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: build archive 
+        run: | 
+          echo "Build zip file for figshare"
+          mkdir figshare 
+          tar -czf figshare/licma.tar.gz --exclude=./figshare --exclude=.git/ .
+          #zip -r figshare/licma.zip . -x ".git/"
+          cp README.md figshare 
+          cp LICENSE figshare/LICENSE.txt 
+      - uses: figshare/github-upload-action@v1.1
+        with:
+          FIGSHARE_TOKEN: ${{ secrets.FIGSHARE_TOKEN }} 
+          FIGSHARE_ENDPOINT: 'https://api.figshare.com/v2'
+          FIGSHARE_ARTICLE_ID: 16538568 
+          DATA_DIR: 'figshare'
