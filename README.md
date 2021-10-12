@@ -1,9 +1,9 @@
 # LICMA(Language Independent Crypto-Misuse Analysis)
 
-LICMA is a an analysis tool to identify incorrect initialization of crypto functions.
-The performed analysis is based on the six rule by Egele et al. [1]
+LICMA is a multi-language analysis tool to identify incorrect initialization of crypto functions.
+The current rule set is based on the six rules defined by Egele et al. [^1]. We provide an overview of the rules and Python examples [below](https://github.com/stg-tud/licma#crypto-rules).
 
-It is possible to create own rules for individual analyses.
+It is possible to create own rules for individual analyses or support additional languages.
 
 ## Requirements
 - [docker](https://docs.docker.com/get-docker/)
@@ -38,10 +38,23 @@ is located.
 - [--la] source file type ('java' or 'py' default='java')
 - [--lib] select cryptographic library ONLY FOR PYTHON ('pycrypto' or 'm2crypto' or 'pynacl' or 'ucryptolib' or 'cryptography' or '*', default='*')
 - [--num] select a specific rule (type=int, default=None: that means, all rules are considered for the analysis)
-- [-i] input directory or file
+- [-i] input directory or file]
 - [-o] output directory (default='../output')
 
-## Publications
+
+## Crypto Rules
+
+| **ID** | **Rule**                                                                                           | **Python: Violation Example**                                                                                         |
+|--------|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| §1     | Do not use electronic code book (ECB) mode for encryption.                                         | `aes = AES.new(key, AES.MODE_ECB)`                                                                      |
+| §2     | Do not use a non-random initiliazation vector (IV) for ciphertext block chaining (CBC) encryption. | `aes = AES.new(key, AES.MODE_CBC, b'\0' * 16)`                                                             |
+| §3     | Do not use constant encryption keys.                                                               | `aes = AES.new(b'\0' * 32, AES.MODE_CBC, iv)`                                                               |
+| §4     | Do not use constant salts for password-based encryption (PBE).                                     | `kdf = PBKDF2HMAC(hashes.SHA256(), 32, b'\0' * 32, 10000)`                                                  |
+| §5     | Do not use fewer than 1,000 iterations for PBE.                                                    | `kdf = PBKDF2HMAC(hashes.SHA256(), 32, salt, 1)`                                                            |
+| §6     | Do not use static seeds to initialize secure random generator.                                     | Due to API design only possible in  Java [^1] and C/C++ [^2] |
+
+
+## Publication
 
 LICMA was used in the publication **Python Crypto Misuses in the Wild**. 
 This are the evaluation and scripts for out paper: **Python Crypto Misuses in the Wild** by
@@ -49,6 +62,6 @@ This are the evaluation and scripts for out paper: **Python Crypto Misuses in th
 Technische Universität Darmstadt, D-64289 Darmstadt, Germany.
 
 ## References
-[1] Manuel Egele, David Brumley, Yanick Fratantonio, and Christopher Kruegel.
-An empirical study of cryptographic misuse in android applications. In Ahmad-Reza Sadeghi, Virgil Gligor, and Moti Yung, editors,
-Proceedings of the 2013 ACM SIGSAC conference on Computer & communications security - CCS '13, pages 73-84, New York, New York, USA, 2013. ACM Press.
+[^1]: Manuel Egele, David Brumley, Yanick Fratantonio, and Christopher Kruegel. An empirical study of cryptographic misuse in android applications. In Proceedings of the 2013 ACM SIGSAC conference on Computer & communications security - CCS '13, New York, USA, 2013. ACM Press.
+[^2]: Zhang, Li, Jiongyi Chen, Wenrui Diao, Shanqing Guo, Jian Weng, and Kehuan Zhang. ‘CryptoREX: Large-Scale Analysis of Cryptographic Misuse in IoT Devices’. In 22nd International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2019), Chaoyang District, Beijing: USENIX Association, 2019. 
+
