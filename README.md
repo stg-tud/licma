@@ -43,7 +43,10 @@ is located.
 
 ## Publications
 
-This analysis was used in the publication **Python Crypto Misuses in the Wild** by Anna-Katharina Wickert (@akwick), Lars Baumgärtner (@gh0st42), Florian Breitfelder (@Breitfelder), and Mira Mezini (@miramezini) at ESEM'21. 
+LICMA was used in the publication **Python Crypto Misuses in the Wild**. 
+This are the evaluation and scripts for out paper: **Python Crypto Misuses in the Wild** by
+<a itemprop="sameAs" content="https://orcid.org/0000-0002-1441-2423" href="https://orcid.org/0000-0002-1441-2423" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:left;">Anna-Katharina Wickert<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-left:.5em;" alt="ORCID iD icon"></a>, <a itemprop="sameAs" content="https://orcid.org/0000-0002-5805-2773" href="https://orcid.org/0000-0002-5805-2773" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:left;">Lars Baumgärtner<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-left:.5em;" alt="ORCID iD icon"></a>, <a itemprop="sameAs" content="https://orcid.org/0000-0003-2337-1819" href="https://orcid.org/0000-0003-2337-1819" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:left;">Florian Breitfelder<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-left:.5em;" alt="ORCID iD icon"></a>, and <a itemprop="sameAs" content="https://orcid.org/0000-0001-6563-7537" href="https://orcid.org/0000-0001-6563-7537" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:left;">Mira Mezini<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-left:.5em;" alt="ORCID iD icon"></a>.
+Technische Universität Darmstadt, D-64289 Darmstadt, Germany.
 
 ## References
 [1] Manuel Egele, David Brumley, Yanick Fratantonio, and Christopher Kruegel.
