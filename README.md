@@ -53,6 +53,10 @@ is located.
 | §5     | Do not use fewer than 1,000 iterations for PBE.                                                    | `kdf = PBKDF2HMAC(hashes.SHA256(), 32, salt, 1)`                                                            |
 | §6     | Do not use static seeds to initialize secure random generator.                                     | Due to API design only possible in  Java [^1] and C/C++ [^2] |
 
+## Evaluation
+
+We evaluated the Java component of LICMA upon the benchmark *CryptoAPIBench* and the Python component in a in-the-wild study. You can find more details in our [results GitHub project](https://github.com/stg-tud/python-crypto-misuses-study-results) or respectively on [figshare](https://doi.org/10.6084/m9.figshare.16499085.v1). 
+
 
 ## Publication
 
